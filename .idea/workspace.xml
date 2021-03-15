@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b95a6e8a-351b-47b4-82d5-e1e026405e84" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.flutter-plugins" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/local_database.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/local_database.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local_database.iml" beforeDir="false" afterPath="$PROJECT_DIR$/local_database.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/local_database_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/local_database_test.dart" afterDir="false" />
@@ -27,22 +26,17 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IgnoredFileRootStore">
-    <option name="generatedRoots">
-      <set>
-        <option value="D:\AndroidStudioProjects\local_database\.idea" />
-      </set>
-    </option>
-  </component>
   <component name="ProjectId" id="1ojtAEiqMhKZvGA2FPON2FrRkPy" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="dart.analysis.tool.window.force.activate" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/example" />
     <property name="settings.editor.selected.configurable" value="dart.settings" />
     <property name="show.migrate.to.gradle.popup" value="false" />
@@ -55,7 +49,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Flutter Test.tests in local_database_test.dart">
+  <component name="RunManager" selected="Dart Command Line App.main.dart">
     <configuration name="local_database_test.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/test/local_database_test.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
@@ -72,9 +66,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Flutter Test.tests in local_database_test.dart" />
-        <item itemvalue="Dart Command Line App.local_database_test.dart" />
         <item itemvalue="Dart Command Line App.main.dart" />
+        <item itemvalue="Dart Command Line App.local_database_test.dart" />
+        <item itemvalue="Flutter Test.tests in local_database_test.dart" />
       </list>
     </recent_temporary>
   </component>
@@ -109,25 +103,37 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="804" y="311" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1613811868684" />
-    <state width="2003" height="299" key="GridCell.Tab.0.bottom" timestamp="1613815358768">
-      <screen x="0" y="0" width="2048" height="1112" />
+    <state width="1398" height="199" key="GridCell.Tab.0.bottom" timestamp="1615818237943">
+      <screen x="0" y="25" width="1440" height="791" />
     </state>
     <state width="2003" height="299" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1613815358768" />
-    <state width="2003" height="299" key="GridCell.Tab.0.center" timestamp="1613815358768">
-      <screen x="0" y="0" width="2048" height="1112" />
+    <state width="1398" height="199" key="GridCell.Tab.0.bottom/0.25.1440.791@0.25.1440.791" timestamp="1615818237943" />
+    <state width="1398" height="199" key="GridCell.Tab.0.center" timestamp="1615818237942">
+      <screen x="0" y="25" width="1440" height="791" />
     </state>
     <state width="2003" height="299" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1613815358768" />
-    <state width="2003" height="299" key="GridCell.Tab.0.left" timestamp="1613815358768">
-      <screen x="0" y="0" width="2048" height="1112" />
+    <state width="1398" height="199" key="GridCell.Tab.0.center/0.25.1440.791@0.25.1440.791" timestamp="1615818237942" />
+    <state width="1398" height="199" key="GridCell.Tab.0.left" timestamp="1615818237942">
+      <screen x="0" y="25" width="1440" height="791" />
     </state>
     <state width="2003" height="299" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1613815358768" />
-    <state width="2003" height="299" key="GridCell.Tab.0.right" timestamp="1613815358768">
-      <screen x="0" y="0" width="2048" height="1112" />
+    <state width="1398" height="199" key="GridCell.Tab.0.left/0.25.1440.791@0.25.1440.791" timestamp="1615818237942" />
+    <state width="1398" height="199" key="GridCell.Tab.0.right" timestamp="1615818237943">
+      <screen x="0" y="25" width="1440" height="791" />
     </state>
     <state width="2003" height="299" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1613815358768" />
+    <state width="1398" height="199" key="GridCell.Tab.0.right/0.25.1440.791@0.25.1440.791" timestamp="1615818237943" />
     <state x="533" y="199" key="SettingsEditor" timestamp="1613811880567">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="533" y="199" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1613811880567" />
+    <state x="412" y="175" width="615" height="490" key="find.popup" timestamp="1615816682122">
+      <screen x="0" y="25" width="1440" height="791" />
+    </state>
+    <state x="412" y="175" width="615" height="490" key="find.popup/0.25.1440.791@0.25.1440.791" timestamp="1615816682122" />
+    <state width="465" height="133" key="javadoc.popup.new" timestamp="1615817825010">
+      <screen x="0" y="25" width="1440" height="791" />
+    </state>
+    <state width="465" height="133" key="javadoc.popup.new/0.25.1440.791@0.25.1440.791" timestamp="1615817825010" />
   </component>
 </project>

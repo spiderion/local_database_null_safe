@@ -1,9 +1,9 @@
 library local_database;
 
+import 'dart:collection';
 import "dart:io";
 import "dart:convert";
 import "dart:async";
-import "package:queue/queue.dart";
 
 ///A dart:io based Database
 class Database {
