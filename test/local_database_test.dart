@@ -6,11 +6,11 @@ void main() {
   String home = "";
   Map<String, String> envVars = Platform.environment;
   if (Platform.isMacOS) {
-    home = envVars["HOME"];
+    home = envVars["HOME"]!;
   } else if (Platform.isLinux) {
-    home = envVars["HOME"];
+    home = envVars["HOME"]!;
   } else if (Platform.isWindows) {
-    home = envVars["UserProfile"];
+    home = envVars["UserProfile"]!;
   } else {
     throw new Exception("Unknown platform");
   }
