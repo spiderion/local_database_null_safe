@@ -7,12 +7,11 @@ import "package:queue/queue.dart";
 
 ///A dart:io based Database
 class Database {
-  Directory _base;
-  Queue _queue;
+  late Directory _base;
+  late Queue _queue;
 
   ///Create a Database with path b
   Database(String b) {
-    assert(b != null);
     _base = Directory(b)..create(recursive: true);
     _queue = Queue();
   }
@@ -94,14 +93,14 @@ class Database {
                     List<String> paths = path.split(_delim);
                     paths.removeAt(0);
                     String last = paths.removeLast();
-                    Map<String, dynamic> temp = map;
+                    Map<String, dynamic>? temp = map;
                     paths.forEach((s) {
-                      if (temp[s] == null) {
-                        temp[s] = Map<String, dynamic>();
+                      if (temp![s] == null) {
+                        temp![s] = Map<String, dynamic>();
                       }
-                      temp = temp[s];
+                      temp = temp![s];
                     });
-                    temp[last] = json.decode(await d.readAsString());
+                    temp![last] = json.decode(await d.readAsString());
                   }))
               .toList()
               .cast<Future<dynamic>>());
@@ -165,7 +164,7 @@ class Database {
   void _convertAllLists(Map map, dynamic parentMap, dynamic key) {
     if (_isList(map)) {
       if (parentMap != null) {
-        parentMap[key] = _mapToList(map);
+        parentMap[key] = _mapToList(map as Map<String, dynamic>);
         List l = parentMap[key];
         for (int i = 0; i < l.length; i++) {
           if (l[i] is Map) {
@@ -173,7 +172,7 @@ class Database {
           }
         }
       } else {
-        List l = _mapToList(map);
+        List l = _mapToList(map as Map<String, dynamic>);
         for (int i = 0; i < map.keys.length; i++) {
           if (l[i] is Map) {
             _convertAllLists(map[i.toString()], map, i.toString());
@@ -192,7 +191,7 @@ class Database {
   ///Check if a Map is a List
   bool _isList(Map map) {
     dynamic keys = map.keys;
-    bool allInts = keys.every((s) => RegExp("\\d+").hasMatch(s));
+    bool? allInts = keys.every((s) => RegExp("\\d+").hasMatch(s));
     bool sequential = true;
     for (int i = 0; i < keys.length; i++) {
       if (!keys.contains("$i")) {
@@ -200,7 +199,7 @@ class Database {
         break;
       }
     }
-    return map.keys.length > 0 && allInts && sequential;
+    return map.keys.length > 0 && allInts! && sequential;
   }
 
   ///Fix the provided paths
