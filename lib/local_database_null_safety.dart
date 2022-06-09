@@ -1,4 +1,4 @@
-library local_database;
+library local_database_null_safety;
 
 import "dart:io";
 import "dart:convert";

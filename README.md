@@ -7,13 +7,13 @@ In the `pubspec.yaml` of your flutter project, add the following dependency:
 ```yaml
 dependencies:
   ...
-  local_database: ^1.2.0
+  local_database_null_safety: ^1.4.1
 ```
 
 In your library add the following import:
 
 ```dart
-import "package:local_database/local_database.dart";
+import "package:local_database_null_safety/local_database_null_safety.dart";
 ```
 
 For help getting started with Flutter, view the online [documentation](https://flutter.io/).

@@ -1,3 +1,7 @@
+## 1.4.0
+
+* Moved to null safety
+
 ## 1.2.0
 
 * Added queue system for queries
