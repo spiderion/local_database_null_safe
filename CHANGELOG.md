@@ -1,3 +1,7 @@
+## 1.4.1
+
+* Update readme with latest version
+
 ## 1.4.0
 
 * Moved to null safety
